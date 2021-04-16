@@ -1,2 +1,32 @@
-# BUIR
-Bootstrapping User and Item Representations for One-Class Collaborative Filtering
+# BUIR: Bootstrapping User and Item Representations for One-Class Collaborative Filtering
+
+- This is the author code of ["Bootstrapping User and Item Representations for One-Class Collaborative Filtering"](https://to-be-appeared) (SIGIR 2021).
+- We provide two types of user/item encoder: 1) `BUIR-id` - a single embedding layer, and 2) `BUIR-nb` - the [LightGCN](https://arxiv.org/abs/2002.02126).
+
+## Overview
+
+<p align="center">
+<img src="./figure/framework.png" width="500">
+</p>
+
+Our BUIR framework optimizes the representations of **positively-related users and items** (i.e., users and their highly preferred items) similar to each other, without negative sampling of user-item interactions.
+
+## Run the codes
+
+- python
+- pytorch
+
+#### BUIR using a simple encoder (with a single embedding layer)
+```
+python main.py --dataset toy-dataset --model buir-id --gpu <gpu-device-idx>
+```
+
+#### BUIR using a GCN-based encoder
+```
+python main.py --dataset toy-dataset --model buir-nb --gpu <gpu-device-idx>
+```
+
+## Citation
+```
+TBD
+```

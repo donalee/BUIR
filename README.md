@@ -6,10 +6,10 @@
 ## Overview
 
 <p align="center">
-<img src="./figure/framework.png" width="500">
+<img src="./Figure/framework.png" width="500">
 </p>
 
-Our BUIR framework optimizes the representations of **positively-related users and items** (i.e., users and their highly preferred items) similar to each other, without negative sampling of user-item interactions.
+Our BUIR framework optimizes the representations of **positively-related users and items** (i.e., users and their highly preferred items) similar to each other, without explicitly using negative user-item interactions.
 
 ## Run the codes
 

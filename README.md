@@ -1,6 +1,6 @@
 # BUIR: Bootstrapping User and Item Representations for One-Class Collaborative Filtering
 
-- This is the author code of ["Bootstrapping User and Item Representations for One-Class Collaborative Filtering"](https://to-be-appeared) (SIGIR 2021).
+- This is the author code of ["Bootstrapping User and Item Representations for One-Class Collaborative Filtering"](https://arxiv.org/abs/2105.06323) (SIGIR 2021).
 - We provide two types of user/item encoder: 1) `BUIR-id` - a single embedding layer, and 2) `BUIR-nb` - the [LightGCN](https://arxiv.org/abs/2002.02126).
 
 ## Overview

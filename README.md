@@ -28,5 +28,12 @@ python main.py --dataset toy-dataset --model buir-nb --gpu <gpu-device-idx>
 
 ## Citation
 ```
-TBD
+@inproceedings{lee2021bootstrapping,
+  title = {Bootstrapping User and Item Representations for One-Class Collaborative Filtering},
+  author = {Lee, Dongha and Kang, SeongKu and Ju, Hyunjun and Park, Chanyoung and Yu, Hwanjo},
+  booktitle = {Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  year = {2021},
+  pages = {317–326}
+}
+
 ```
